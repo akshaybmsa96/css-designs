@@ -1,0 +1,40 @@
+<div class="first"></div>
+<div class="second"></div>
+<div class="third"></div>
+<style>
+  div {
+    width: 120px;
+    height: 120px;
+    background: #f3ac3c;
+  }
+  body {
+    background: #0b2429;
+    margin: 0;
+    display: flex;
+  }
+
+  .first {
+    position: absolute;
+    border-radius: 50%;
+    left: 200px;
+    top: 30px;
+  }
+
+  .second {
+    position: absolute;
+    border-radius: 50% 0;
+    left: 140px;
+    top: 90px;
+  }
+
+  .third {
+    position: absolute;
+    left: 80px;
+    top: 150px;
+    border-radius: 50% 0 50% 50%;
+  }
+
+  .second {
+    background: #998235;
+  }
+</style>
